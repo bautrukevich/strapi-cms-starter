@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "index_pages",
+  "info": {
+    "name": "Index Page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
